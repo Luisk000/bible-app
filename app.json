@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.luisk000.bibleapp"
     },
     "web": {
       "bundler": "metro",
@@ -43,6 +44,7 @@
       "eas": {
         "projectId": "f822e217-718e-40de-a301-0b05145ee35f"
       }
-    }
+    },
+    "owner": "luisk000"
   }
 }
