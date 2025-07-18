@@ -6,7 +6,7 @@ import { PaperProvider } from 'react-native-paper';
 export default function RootLayout() {
   return <PaperProvider>
     <Stack>
-      <Stack.Screen name='leitura'></Stack.Screen>
+      <Stack.Screen name='(tabs)/leitura'></Stack.Screen>
     </Stack>   
   </PaperProvider>;
 }
