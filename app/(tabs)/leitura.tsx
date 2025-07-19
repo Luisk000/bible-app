@@ -1,6 +1,7 @@
 import { Link } from "expo-router";
 import { Text, View, StyleSheet } from "react-native";
 
+
 export default function Leitura() {
 return (
     <View
@@ -21,7 +22,5 @@ const styles = StyleSheet.create({
   btn_menu: {
     width: 200,
     backgroundColor: "red",
-    flex: 2,
-    justifyContent: "center"
   }
 })
